@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="intro" id="intro"></div>
+    <div id="preloader">
+      <img src="spinner.svg" alt="preloader" />
+    </div>
+    <nav id="menu">
+      <ul>
+        <li><a id="home" href="#">Home</a></li>
+        <li><a id="about" href="#">About</a></li>
+        <li><a id="projects" href="#">Projects</a></li>
+        <li><a id="contact" href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="introduction">
+      <div id="heading">
+        <h1></h1>
+        <h2></h2>
+      </div>
+      <div id="text">
+        <p></p>
+      </div>
+    </div>
+    <section class="about">
+      <div class="about_text">
+        <h3>About me</h3>
+        <p>
+          Hello! I'm Olena. I'm a web developer based in Canada. I'm in love
+          with coding and its inner magic world. Adore my husband for his
+          support and also like yachting, traveling and taking photos. All of
+          these things inspire me for creating.
+        </p>
+      </div>
+      <div>
+        <img class="face" src="face1.jpg" alt="photo" />
+      </div>
+    </section>
+    <section class="project">
+      <div class="project_title">
+        <h3>Latest Projects</h3>
+      </div>
+      <div class="project_container">
+        <div class="shadow">
+          <a href="https://candelshome.netlify.app/" target="_blank"
+            ><img src="candle.jpg" alt="candle" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a
+            href="https://iridescent-smakager-627765.netlify.app/"
+            target="_blank"
+            ><img src="cat.png" alt="cat" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://serene-chebakia-09cd1e.netlify.app/" target="_blank"
+            ><img src="bar.png" alt="bar" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://serov.yachts/" target="_blank"
+            ><img src="yacht.png" alt="yacht" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a
+            href="https://fanciful-sopapillas-f3d09f.netlify.app/"
+            target="_blank"
+            ><img src="pasta.png" alt="pasta" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://counting-to-new-year.glitch.me" target="_blank"
+            ><img src="newyear.png" alt="New Year" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://new-weather-forecast.glitch.me" target="_blank"
+            ><img src="weather.png" alt="weather" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a
+            href="https://tourmaline-sorbet-f12aa1.netlify.app/"
+            target="_blank"
+            ><img src="recipe.png" alt="recipe" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://furniture-salon-new.glitch.me" target="_blank"
+            ><img src="shop.png" alt="photo" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://my-own-meditation.glitch.me" target="_blank"
+            ><img src="relax.png" alt="photo" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+        <div class="shadow">
+          <a href="https://some-tips.glitch.me" target="_blank"
+            ><img src="tips.png" alt="photo" />
+            <div class="test">READ MORE</div></a
+          >
+        </div>
+      </div>
+    </section>
+    <form action="https://formspree.io/f/mvolyyyl" method="POST">
+      <h3>Get in touch</h3>
+      <input type="hidden" name="_language" value="en" />
+      <div class="header">
+        <label>
+          YOUR EMAIL:
+          <input
+            class="text_form"
+            type="email"
+            name="email"
+            placeholder="Write your email"
+            required=""
+          />
+        </label>
+      </div>
+      <div class="header">
+        <label>
+          YOUR MESSAGE:
+          <textarea
+            class="text_form"
+            name="message"
+            placeholder="Write your message"
+            required=""
+          ></textarea>
+        </label>
+      </div>
+      <br />
+      <div class="header">
+        <button class="btn" type="submit">Send</button>
+      </div>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/TextPlugin.min.js"></script>
+    <script src="three.min.js"></script>
+    <script src="vanta.dots.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
